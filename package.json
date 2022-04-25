@@ -5,14 +5,19 @@
   "main": "src/app.js",
   "dependencies": {
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "serve-favicon": "^2.5.0",
-    "socket.io": "^2.4.0"
+    "socket.io": "^4.5.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
   },
   "scripts": {
     "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "",
+    "start": "node src/app.js" 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,5 +33,5 @@
   "bugs": {
     "url": "https://github.com/deepansharya1111/virtual-conferencing-app-for-college/issues"
   },
-  "homepage": "https://github.com/deepansharya1111/virtual-conferencing-app-for-college"
+  "homepage": "https://deepansharya1111.github.io/virtual-conferencing-app-for-college"
 }
