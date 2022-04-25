@@ -15,10 +15,7 @@
   "scripts": {
     "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "",
-    "start": "node src/app.js" 
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src",
   },
   "repository": {
     "type": "git",
