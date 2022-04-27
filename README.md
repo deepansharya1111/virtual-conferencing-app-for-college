@@ -4,9 +4,12 @@ A conference call implementation using WebRTC, Socket.io and Node.js.
 
 # Getting Started
 - Run `npm install`
-- `cd src`
-- `node app.js`
-- Run using`localhost:3000`
+- `npm install nodemon --save-dev`
+- Then
+- `npm start`
+- or
+- `node src/app.js`
+- Seen in browser using`localhost:3000`
 <!-- `npm run deploy` to use gh-pages script. Reference = https://www.youtube.com/watch?v=SKXkC4SqtRk&t=608s -->
 
 
@@ -24,6 +27,3 @@ A conference call implementation using WebRTC, Socket.io and Node.js.
 
 # project guide 
 - Dr. Jasvinder Kaur, HOD (CSE Dept), Pdm university.
-
-
-
