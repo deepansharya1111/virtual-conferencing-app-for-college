@@ -1,4 +1,4 @@
-# PDMEET Conference Call
+# PDM-Teams virtual-conferencing-app-for-college
 A conference call implementation using WebRTC, Socket.io and Node.js.
 
 
