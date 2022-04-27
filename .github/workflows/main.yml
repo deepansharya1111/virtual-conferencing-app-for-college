@@ -1,0 +1,23 @@
+# This script deploys your website automatically
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Only trigger this script when you push to the main branch
+  push:
+    branches: [ main ]
+
+# Specify the tasks to run when this script gets triggered
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    # i.e. Download our master branch
+    - uses: actions/checkout@v3
+
+    # Run our deployment command
+    - name: Deploying the static website to gh-pages
+      run: npm run deploy
