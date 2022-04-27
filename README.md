@@ -7,6 +7,7 @@ A conference call implementation using WebRTC, Socket.io and Node.js.
 - `cd src`
 - `node app.js`
 - Run using`localhost:3000`
+<!-- `npm run deploy` to use gh-pages script. Reference = https://www.youtube.com/watch?v=SKXkC4SqtRk&t=608s -->
 
 
 # Features
