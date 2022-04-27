@@ -1,5 +1,5 @@
 {
-  "name": "livestream-server",
+  "name": "PDM-amirsanni-livestream-server",
   "version": "0.0.1",
   "description": "A conference call implementation using WebRTC, Socket.io and Node.js.",
   "main": "src/app.js",
