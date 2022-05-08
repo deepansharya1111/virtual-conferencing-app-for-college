@@ -10,7 +10,7 @@
   - `npm start`
   - or
   - `node src/app.js`
-  - Seen in browser using`localhost:3000`
+  - Seen in browser using`localhost:8080`
   <!-- `npm run deploy` to use gh-pages script. Reference = https://www.youtube.com/watch?v=SKXkC4SqtRk&t=608s -->
 
 
