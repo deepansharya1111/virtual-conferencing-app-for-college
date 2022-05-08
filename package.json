@@ -1,5 +1,5 @@
 {
-  "name": "PDM-livestream-server",
+  "name": "PDM-University-livestream-server",
   "version": "0.0.1",
   "description": "A conference call implementation using WebRTC, Socket.io and Node.js.",
   "main": "src/app.js",
@@ -13,10 +13,10 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "watch": "nodemon --watch \"src/\" --exec \"node src/App.js\"",
     "deploy": "gh-pages -d src",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
+    "start": "node src/App.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,6 @@
     "Server"
   ],
   "author": "Deepansh Singh Arya <deepansharya1111@gmail.com>",
-  "Co-helper": "amirsanni",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/deepansharya1111/virtual-conferencing-app-for-college/issues"
