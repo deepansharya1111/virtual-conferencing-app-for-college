@@ -13,10 +13,10 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "watch": "nodemon --watch \"src/\" --exec \"node src/App.js\"",
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
     "deploy": "gh-pages -d src",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/App.js"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
